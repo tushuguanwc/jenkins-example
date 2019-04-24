@@ -1,7 +1,8 @@
+#!groovy
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('Check style') {
             steps {
                 sh 'echo "Hello World"'
                 sh '''
